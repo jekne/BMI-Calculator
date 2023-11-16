@@ -4,21 +4,21 @@
 const weightInKg = 82
 const heightInKg = 1.79
 
-const BMI = weightInKg / (heightInKg * heightInKg)
+const BMI = Math.round(weightInKg / (heightInKg * heightInKg))
 
-console.log("weight",weightInKg)
 console.log(`**************
 BMI CALCULATOR
 **************
 
-height: ${heightInKg}
+height: ${heightInKg }
 weight: ${weightInKg}
 
 ****************
 FACING THE FACTS
 ****************
 
-Your BMI is 26
+Your BMI is ${BMI}
 
 A BMI under 18.5 is considered underweight
 A BMI above 25 is considered overweight`)
+
