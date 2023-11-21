@@ -21,8 +21,8 @@ console.log(nope); // NaN
 const alsoDoesNotWork = parseFloat("I am 1.79 tall");
 console.log(alsoDoesNotWork); // NaN
 
-const stringWithLetters = "I am 82 kg";
-const numericPart = stringWithLetters.match(/\d+(\.\d+)?/);
-const parsedNumber = numericPart ? parseFloat(numericPart[0]) : NaN;
+// const stringWithLetters = "I am 82 kg";
+// const numericPart = stringWithLetters.match(/\d+(\.\d+)?/);
+// const parsedNumber = numericPart ? parseFloat(numericPart[0]) : NaN;
 
-console.log(parsedNumber)
+// console.log(parsedNumber)
