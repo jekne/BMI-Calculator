@@ -1,0 +1,52 @@
+First project
+
+Losing weight
+
+We are going to build a script that generates a diet plan for a person that weighs more than their ideal weight.
+
+Here is a list of steps you can take to write a program:
+
+1 - user story: Who wants something, What do they want, Why do they want it?
+
+2  - business logic: Figure what feature we want to build and how to build it, to implement our userstory
+
+3 - data model & storage: Define what data we need from the user, how will we store it
+
+4 - hardcode the data: Generate some dummy data so we can start to test our program
+
+5 - processing & output: Write a basic program that performs the calculations and generates the output we want
+
+6 - input & dynamic data: Make it possible for users to give input to the program
+
+Some best practices (Next module):
+
+1 -validation: Make the program check if the input the user provided was valid
+
+2 -refactor: Clean up our code
+
+3 -Add more features, make the program more nuanced (start again at 1: user story)
+
+User stories
+
+A user story is an informal, general explanation of a software feature written from the perspective of the end user.
+
+1 - As a person unsure about my weight, I want to know if I am overweight or not, so I can be informed.
+
+2 - As a person unsure about my weight, I want to know what my ideal weight is, so I have a target I can work towards.
+
+3 - As a person who is trying to lose weight, I want to know how many calories I should eat everyday, so I can make progress towards my weight goal.
+
+4 - As a person who is trying to lose weight, I want to have a timeline in which I can reach my weight goal, so I can make a plan.
+
+(Next module)
+
+1 - As a person who is trying to lose weight, I want the amount of exercise taken into account when creating my diet plan, so I can be motivated to work out.
+
+2 - As a woman who is trying to lose weight, I want gender to be taken into account when creating my diet plan, so the information is more relavant to me.
+
+3 - As a person who is trying to gain weight, I want to know how much calories I should eat everyday, so I can make progress towards my weight goal.
+
+4 - As a person who is trying to gain weight, I want to have a timeline in which I can reach my weight goal, so I can make a plan.
+
+5 - As a user, I want the program to give me feedback when I input the wrong information, so I can learn how to use the program.
+
